@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="HKRider" Class="HKRiderDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=hkrider.hksports.co.kr;Initial Catalog=HKRider;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="HKRiderConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ERRORS" Member="ERRORs">
+    <Type Name="ERROR">
+      <Column Name="No" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Message" Type="System.String" DbType="NVarChar(254) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USERS" Member="USERs">
+    <Type Name="USER">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.LEVELSCORE" Member="LEVELSCOREs">
+    <Type Name="LEVELSCORE">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.LOSTBIKES" Member="LOSTBIKEs">
+    <Type Name="LOSTBIKE">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.MailBox" Member="MailBoxes">
+    <Type Name="MailBox">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.PUSHRECORDS" Member="PUSHRECORDs">
+    <Type Name="PUSHRECORD">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.RIDINGLOGS" Member="RIDINGLOGs">
+    <Type Name="RIDINGLOG">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+  <Table Name="dbo.ROADBIKES" Member="ROADBIKEs">
+    <Type Name="ROADBIKE">
+    ... 보안을 위해 삭제함 ...
+    </Type>
+  </Table>
+</Database>
